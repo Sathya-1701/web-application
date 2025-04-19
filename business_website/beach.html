@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WanderWoops</title>   
+
+<!-- Bootstrap 5 CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap 5 JS Bundle (with Popper.js) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+<!-- jQuery -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+<!-- Boxicons -->
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+<link rel="stylesheet" href="/business_website/assests/index.css">
+<link rel="stylesheet" href="/business_website/assests/gallery.css">
+</head>
+
+
+<body>
+   
+    <header >
+        <!-- Sticky top avoids overlapping -->
+        <div class="container-fluid" style="padding: 0;">
+            <nav class="navbar navbar-expand-lg">
+                <!-- Brand -->
+                <a class="navbar-brand" href="#" id="logo">WanderWoops
+                    
+                </a>    
+                <!-- Navbar Items -->                
+                    <ul id="navbar" class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/business_website/index.html">Back</a>
+                        </li>               
+                    </ul>           
+            </nav>
+        </div>
+    </header>
+    <!--header ends-->
+  
+        
+       
+        <section id="carouselslideshow">
+            <div class="container-fluid">
+                <!-- Carousel -->
+                <div id="carouselslide" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselslide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselslide" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselslide" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselslide" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+
+                        <!-- First Slide -->
+                        <div class="carousel-item active">
+                            <img src="/business_website/media/bg-1.webp" class="d-block w-100" alt="Destination 1">
+                            <div class="carousel-caption">
+                                <h5>Hogenakkal Falls</h5>
+                                <p>Located on the Cauvery River in Tamil Nadu's Dharmapuri district, Hogenakkal is famed for its stunning waterfalls and the "smoky" effect created as water crashes onto the rocks.</p>
+                            </div>
+                        </div>
+                        <!-- Second Slide -->
+                        <div class="carousel-item">
+                            <img src="/business_website/media/bg-2.webp" class="d-block w-100" alt="Destination 2">
+                            <div class="carousel-caption">
+                                <h5>Brihadeeswara Temple</h5>
+                                <p>This UNESCO World Heritage Site, also known as the "Big Temple," is a masterpiece of Chola architecture. Located in Thanjavur, it showcases the grandeur of Tamil Nadu's rich heritage and spirituality.</p>
+                            </div>
+                        </div>
+                        <!-- Third Slide -->
+                        <div class="carousel-item">
+                            <img src="/business_website/media/bg-3.webp" class="d-block w-100" alt="Destination 3">
+                            <div class="carousel-caption">
+                                <h5>Hill Station</h5>
+                                <p>Nestled in the Western Ghats, Kodaikanal is known as the "Princess of Hill Stations." It offers breathtaking views, lush greenery, and a serene escape into the lap of nature.</p>
+                            </div>
+                        </div>
+                        <!-- 4th Slide -->
+                        <div class="carousel-item">
+                            <img src="/business_website/media/bg-4.webp" class="d-block w-100" alt="Destination 3">
+                            <div class="carousel-caption">
+                                <h5>Sri Ranganathaswamy Temple</h5>
+                                <p>The largest functioning Hindu temple in the world, this architectural marvel is dedicated to Lord Vishnu. Its towering gopurams and intricate carvings reflect Tamil Nadu's spiritual and cultural richness.</p>
+                            </div>
+                        </div>
+                    </div>        
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="homeCarousel" >
+            <div class="container-fluid" style="margin-top:40px;">
+                
+                    <p id="content"><h2 style="font-family:'Times New Roman', Times, serif">"Monuments are the grappling-irons that bind one generation to another." – Joseph Joubert</h2>
+                        
+                    </p>
+                
+            </div>
+        </section>    
+       
+
+
+        <section id="gallery" class="container my-5">
+            <h1 class="text-center mb-4">Beach</h1>
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="/business_website/media/beach/1.jpg" class="img-fluid gallery-img fixed-size" data-bs-toggle="modal" data-bs-target="#imageModal" alt="img1">
+                        <div class="caption">Marina Beach, Chennai</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="/business_website/media/beach/2.jpg" class="img-fluid gallery-img fixed-size" data-bs-toggle="modal" data-bs-target="#imageModal" alt="Image 2">
+                    <div class="caption">Elliot's Beach (Besant Nagar Beach), Chennai</div>
+                </div>
+                <div class="col-md-4">
+                    <img src="/business_website/media/beach/3.jpg" class=" gallery-img fixed-size" data-bs-toggle="modal" data-bs-target="#imageModal" alt="Image 3">
+                    <div class="caption"> Kanyakumari Beach, Kanyakumari</div>
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <img src="/business_website/media/beach/4.jpg" class="img-fluid gallery-img fixed-size" data-bs-toggle="modal" data-bs-target="#imageModal" alt="Image 1">
+                    <div class="caption">Silver Beach, Cuddalore</div>
+                </div>
+                <div class="col-md-4">
+                    <img src="/business_website/media/beach/5.jpg" class="img-fluid gallery-img fixed-size" data-bs-toggle="modal" data-bs-target="#imageModal" alt="Image 2">
+                    <div class="caption">Dhanushkodi Beach, Rameswaram</div>
+                </div>
+                <div class="col-md-4">
+                    <img src="/business_website/media/beach/6.jpg" class=" gallery-img fixed-size" data-bs-toggle="modal" data-bs-target="#imageModal" alt="Image 3">
+                    <div class="caption">Thalaiyar Falls, Dindigul</div>
+                </div>
+            </div>
+
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <img src="/business_website/media/beach/7.jpg" class="img-fluid gallery-img fixed-size" data-bs-toggle="modal" data-bs-target="#imageModal" alt="Image 1">
+                    <div class="caption">
+                        Suruli Falls, Theni
+                        </div>
+                </div>
+
+          
+        </section>
+        
+       <!-- Modal for Enlarged Image -->
+       <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg"> <!-- Increased modal size -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img id="modalImage" class="img-fluid" src="" alt=""> <!-- Only image -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+     //gallery
+
+     document.querySelectorAll(".gallery-img").forEach(img => {
+        img.addEventListener("click", function() {
+            let modalImage = document.getElementById("modalImage");
+    
+            if (modalImage) {
+                modalImage.src = this.src; // Set the modal image to the clicked image
+            }
+        });
+    });
+</script>

@@ -1,0 +1,43 @@
+.fixed-size {
+    width: 100%; 
+    height: 250px; 
+    object-fit: cover; 
+    transition: transform 0.3s ease-in-out; /* Smooth zoom effect */
+}
+
+.col-md-4 {
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden; /* Prevents the image from exceeding container */
+}
+
+.col-md-4:hover .fixed-size {
+    transform: scale(1.1);  /* Zoom the image instead of the column */
+}
+
+.text-center {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.caption {
+    position: absolute;
+    top: 190px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: transparent;
+    color: white;
+    padding: 5px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0; /* Hide caption initially */
+    transition: opacity 0.3s ease-in-out; 
+}
+
+.col-md-4:hover .caption {
+    opacity: 1; /* Show caption on hover */
+}
+
+

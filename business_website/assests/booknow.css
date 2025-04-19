@@ -1,0 +1,37 @@
+/*section booking*/
+#heading{
+    text-align: center;
+    padding: 2.5rem 0;
+}
+
+#heading span{
+    font-size:3.5rem;
+
+}
+
+.booking-form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.btn-book {
+    background-color: #01468f;
+    color: white;
+    transition: 0.3s;
+}
+.btn-book:hover {
+    background-color: #0056b3;
+}
+
+.mb-3 input {
+    background-color: rgb(208, 207, 204);
+    
+    
+}
+
+
+
+

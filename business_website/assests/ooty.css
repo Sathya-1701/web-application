@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6c757d;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-weight: 500;
+    color: #6c757d;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.weather-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 20px;
+}
+
+.weather-icon {
+    color: #6c757d;
+    margin: 10px 0;
+}
+
+.temperature {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+.weather-condition {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+.map-img {
+    width: 80%;
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+.destination-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.destination-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.destination-card img {
+    width: 100%;
+    height: 300px;
+    transition: transform 0.3s ease-in-out;  /* Smooth zoom effect */
+}
+
+.destination-card:hover img {
+    transform: scale(1.1);  /* Zoom effect */
+}
+
+.activities-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.activity-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.activity-card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+.activity-card:hover img {
+    transform: scale(1.05);
+}
+.activity-text {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: padding-top 0.3s ease-in;
+}
+
+.activity-card:hover , .activities-title{
+    transform: translateY(-20px); 
+}
+
+h4{
+    margin-top: 20px;
+    color:black;
+    font-size:30px;
+    font-weight: 500;
+}
+
