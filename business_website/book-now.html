@@ -1,255 +1,380 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WanderWoops</title>   
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WanderWoops</title>
 
-<!-- Bootstrap 5 CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-<!-- Bootstrap 5 JS Bundle (with Popper.js) -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap 5 JS Bundle (with Popper.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-<!-- Font Awesome Icons -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
 
-<!-- jQuery -->
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
 
-<!-- Boxicons -->
-<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- Boxicons -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
-<!-- Bootstrap Icons -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+    />
 
+    <link rel="stylesheet" href="/business_website/assests/index.css" />
+    <link rel="stylesheet" href="/business_website/assests/booknow.css" />
 
-<link rel="stylesheet" href="/business_website/assests/index.css">
-<link rel="stylesheet" href="/business_website/assests/booknow.css">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-
-
-<script type="text/javascript">
+    <!-- <script type="text/javascript">
     (function(){
        emailjs.init({
          publicKey: "W6wu3K-lca-mvi3co",
        });
     })();
- </script>
+ </script> -->
+  </head>
 
-</head>
-
-
-
-
-<body>
-   
-    <header >
-        <!-- Sticky top avoids overlapping -->
-        <div class="container-fluid" style="padding: 0;">
-            <nav class="navbar navbar-expand-lg">
-                <!-- Brand -->
-                <a class="navbar-brand" href="#" id="logo">WanderWoops
-                    
-                </a>    
-                <!-- Navbar Items -->                
-                    <ul id="navbar" class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="/business_website/index.html">Back</a>
-                        </li>               
-                    </ul>           
-            </nav>
-        </div>
+  <body>
+    <header>
+      <!-- Sticky top avoids overlapping -->
+      <div class="container-fluid" style="padding: 0">
+        <nav class="navbar navbar-expand-lg">
+          <!-- Brand -->
+          <a class="navbar-brand" href="#" id="logo">WanderWoops </a>
+          <!-- Navbar Items -->
+          <ul id="navbar" class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/business_website/index.html">Back</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    
+
     <!--header ends-->
-  
-        
-       
-        <section id="carouselslideshow">
-            <div class="container-fluid">
-                <!-- Carousel -->
-                <div id="carouselslide" class="carousel slide" data-bs-ride="carousel">
 
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselslide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselslide" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselslide" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carouselslide" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                    </div>
-                    <div class="carousel-inner">
-
-                        <!-- First Slide -->
-                        <div class="carousel-item active">
-                            <img src="/business_website/media/bg-1.webp" class="d-block w-100" alt="Destination 1">
-                            <div class="carousel-caption">
-                                <h5>Hogenakkal Falls</h5>
-                                <p>Located on the Cauvery River in Tamil Nadu's Dharmapuri district, Hogenakkal is famed for its stunning waterfalls and the "smoky" effect created as water crashes onto the rocks.</p>
-                            </div>
-                        </div>
-                        <!-- Second Slide -->
-                        <div class="carousel-item">
-                            <img src="/business_website/media/bg-2.webp" class="d-block w-100" alt="Destination 2">
-                            <div class="carousel-caption">
-                                <h5>Brihadeeswara Temple</h5>
-                                <p>This UNESCO World Heritage Site, also known as the "Big Temple," is a masterpiece of Chola architecture. Located in Thanjavur, it showcases the grandeur of Tamil Nadu's rich heritage and spirituality.</p>
-                            </div>
-                        </div>
-                        <!-- Third Slide -->
-                        <div class="carousel-item">
-                            <img src="/business_website/media/bg-3.webp" class="d-block w-100" alt="Destination 3">
-                            <div class="carousel-caption">
-                                <h5>Hill Station</h5>
-                                <p>Nestled in the Western Ghats, Kodaikanal is known as the "Princess of Hill Stations." It offers breathtaking views, lush greenery, and a serene escape into the lap of nature.</p>
-                            </div>
-                        </div>
-                        <!-- 4th Slide -->
-                        <div class="carousel-item">
-                            <img src="/business_website/media/bg-4.webp" class="d-block w-100" alt="Destination 3">
-                            <div class="carousel-caption">
-                                <h5>Sri Ranganathaswamy Temple</h5>
-                                <p>The largest functioning Hindu temple in the world, this architectural marvel is dedicated to Lord Vishnu. Its towering gopurams and intricate carvings reflect Tamil Nadu's spiritual and cultural richness.</p>
-                            </div>
-                        </div>
-                    </div>        
-                    
-                </div>
+    <section id="carouselslideshow">
+      <div class="container-fluid">
+        <!-- Carousel -->
+        <div id="carouselslide" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselslide"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselslide"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselslide"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselslide"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <!-- First Slide -->
+            <div class="carousel-item active">
+              <img
+                src="/business_website/media/bg-1.webp"
+                class="d-block w-100"
+                alt="Destination 1"
+              />
+              <div class="carousel-caption">
+                <h5>Hogenakkal Falls</h5>
+                <p>
+                  Located on the Cauvery River in Tamil Nadu's Dharmapuri
+                  district, Hogenakkal is famed for its stunning waterfalls and
+                  the "smoky" effect created as water crashes onto the rocks.
+                </p>
+              </div>
             </div>
-        </section>
-
-        
-
-
-    <div class="container" style="background-image: url('/business_website/media/bg-2.webp');">
-        <div class="booking-form" style="background:transparent;backdrop-filter: blur(15px);">
-            <h2 class="text-center mb-4">Book Your Tour</h2>
-            <form id="tourBookingForm"  onsubmit="emailsend(event)" >
-                <!-- Personal Details -->
-                <div class="mb-3">
-                    <label for="name" class="form-label">Full Name</label>
-                    <input type="text" class="form-control"  name="user_name" id="user_name" required  >
-                </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" name="user_email"  id="user_email" required>
-                </div>
-                <div class="mb-3">
-                    <label for="phone" class="form-label">Phone Number</label>
-                    <input type="tel" class="form-control" name="user_phone" id="user_phone" required>
-                </div>
-               
-    
-                <!-- Travel Details -->
-                <div class="mb-3">
-                    <label for="destination" class="form-label" >Destination</label>
-                    <select class="form-control" name="user_destination" id="user_destination" required>
-                        <option value="">Select Destination </option>
-                        <option value="Ooty">Ooty</option>
-                        <option value="Madurai">Kpdaikanal</option>
-                        <option value="Madurai">Madurai</option>
-                        <option value="Rameswaram">Rameswaram</option>
-                        <option value="Thanjavur">Thanjavur</option>
-                        <option value="Coimbatore">Kanyakumari</option>
-                    </select>
-                </div>
-                <div class="mb-3">
-                    <label for="date"  class="form-label">Travel Date</label>
-                    <input type="date" class="form-control" id="travel_date"  name="travel_date" required>
-                </div>
-                
-                <div class="mb-3">
-                    <label for="travelers"  class="form-label">Number of Travelers</label>
-                    <input type="number" class="form-control"  name="no_of_travelers" id="no_of_travelers" min="1" required>
-                </div>
-                
-    
-                <!-- Additional Preferences -->
-                <div class="mb-3">
-                    <label class="form-label">Activities Interested In:</label><br>
-                    <input type="checkbox"  name="activity_sightseeing" id="activity_sightseeing" value="Sightseeing"> Sightseeing  
-                    <input type="checkbox" name="activity_adventure" id="activity_adventure" value="Adventure"> Adventure  
-                    <input type="checkbox"  name="activity_beach" id="activity_beach" value="Beach"> Beach  
-                    <input type="checkbox" name="activity_wildlife" id="activity_wildlife" value="Wildlife"> Wildlife  
-                </div>
-                <div class="mb-3">
-                    <label for="requests" class="form-label">Additional Requests</label>
-                    <textarea class="form-control" name="user_requests" id="user_requests" rows="3"></textarea>
-                </div>
-    
-                <!-- Terms and Submit -->
-                
-                <button type="submit" class="btn btn-submit btn-primary w-50 " style="margin-left:130px">Submit Booking</button>
-            </form>
+            <!-- Second Slide -->
+            <div class="carousel-item">
+              <img
+                src="/business_website/media/bg-2.webp"
+                class="d-block w-100"
+                alt="Destination 2"
+              />
+              <div class="carousel-caption">
+                <h5>Brihadeeswara Temple</h5>
+                <p>
+                  This UNESCO World Heritage Site, also known as the "Big
+                  Temple," is a masterpiece of Chola architecture. Located in
+                  Thanjavur, it showcases the grandeur of Tamil Nadu's rich
+                  heritage and spirituality.
+                </p>
+              </div>
+            </div>
+            <!-- Third Slide -->
+            <div class="carousel-item">
+              <img
+                src="/business_website/media/bg-3.webp"
+                class="d-block w-100"
+                alt="Destination 3"
+              />
+              <div class="carousel-caption">
+                <h5>Hill Station</h5>
+                <p>
+                  Nestled in the Western Ghats, Kodaikanal is known as the
+                  "Princess of Hill Stations." It offers breathtaking views,
+                  lush greenery, and a serene escape into the lap of nature.
+                </p>
+              </div>
+            </div>
+            <!-- 4th Slide -->
+            <div class="carousel-item">
+              <img
+                src="/business_website/media/bg-4.webp"
+                class="d-block w-100"
+                alt="Destination 3"
+              />
+              <div class="carousel-caption">
+                <h5>Sri Ranganathaswamy Temple</h5>
+                <p>
+                  The largest functioning Hindu temple in the world, this
+                  architectural marvel is dedicated to Lord Vishnu. Its towering
+                  gopurams and intricate carvings reflect Tamil Nadu's spiritual
+                  and cultural richness.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <div
+      class="container"
+      style="background-image: url('/business_website/media/bg-2.webp')"
+    >
+      <div
+        class="booking-form"
+        style="background: transparent; backdrop-filter: blur(15px)"
+      >
+        <h2 class="text-center mb-4">Book Your Tour</h2>
+        <form id="tourBookingForm" onsubmit="emailsend(event)">
+          <!-- Personal Details -->
+          <div class="mb-3">
+            <label for="name" class="form-label">Full Name</label>
+            <input
+              type="text"
+              class="form-control"
+              name="user_name"
+              id="user_name"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              name="user_email"
+              id="user_email"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="form-label">Phone Number</label>
+            <input
+              type="tel"
+              class="form-control"
+              name="user_phone"
+              id="user_phone"
+              required
+            />
+          </div>
+
+          <!-- Travel Details -->
+          <div class="mb-3">
+            <label for="destination" class="form-label">Destination</label>
+            <select
+              class="form-control"
+              name="user_destination"
+              id="user_destination"
+              required
+            >
+              <option value="">Select Destination</option>
+              <option value="Ooty">Ooty</option>
+              <option value="Madurai">Kpdaikanal</option>
+              <option value="Madurai">Madurai</option>
+              <option value="Rameswaram">Rameswaram</option>
+              <option value="Thanjavur">Thanjavur</option>
+              <option value="Coimbatore">Kanyakumari</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="date" class="form-label">Travel Date</label>
+            <input
+              type="date"
+              class="form-control"
+              id="travel_date"
+              name="travel_date"
+              required
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="travelers" class="form-label"
+              >Number of Travelers</label
+            >
+            <input
+              type="number"
+              class="form-control"
+              name="no_of_travelers"
+              id="no_of_travelers"
+              min="1"
+              required
+            />
+          </div>
+
+          <!-- Additional Preferences -->
+          <div class="mb-3">
+            <label class="form-label">Activities Interested In:</label><br />
+            <input
+              type="checkbox"
+              name="activity_sightseeing"
+              id="activity_sightseeing"
+              value="Sightseeing"
+            />
+            Sightseeing
+            <input
+              type="checkbox"
+              name="activity_adventure"
+              id="activity_adventure"
+              value="Adventure"
+            />
+            Adventure
+            <input
+              type="checkbox"
+              name="activity_beach"
+              id="activity_beach"
+              value="Beach"
+            />
+            Beach
+            <input
+              type="checkbox"
+              name="activity_wildlife"
+              id="activity_wildlife"
+              value="Wildlife"
+            />
+            Wildlife
+          </div>
+          <div class="mb-3">
+            <label for="requests" class="form-label">Additional Requests</label>
+            <textarea
+              class="form-control"
+              name="user_requests"
+              id="user_requests"
+              rows="3"
+            ></textarea>
+          </div>
+
+          <!-- Terms and Submit -->
+
+          <button
+            type="submit"
+            class="btn btn-submit btn-primary w-50"
+            style="margin-left: 130px"
+          >
+            Submit Booking
+          </button>
+        </form>
+      </div>
     </div>
 
-
-
-
     <script>
-    //     // Get the form element by ID and add an event listener for form submission
-    //   document.getElementById("tourBookingForm").addEventListener("submit",
-    //    function(event) {
-    //     event.preventDefault(); // Prevent form refresh
+      //     // Get the form element by ID and add an event listener for form submission
+      document
+        .getElementById("tourBookingForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault(); // Prevent form refresh
 
-    //     // Get form values
-    //     let name = document.getElementById("name").value;
-    //     let email = document.getElementById("email").value;
-    //     let phone = document.getElementById("phone").value;
-       
-    //     let destination = document.getElementById("destination").value;
-    //     let date = document.getElementById("date").value;
-    //     let travelers = document.getElementById("travelers").value;
-        
-        
+          // Get form values
+          let name = document.getElementById("name").value;
+          let email = document.getElementById("email").value;
+          let phone = document.getElementById("phone").value;
 
-    //     // Get selected activities
-    //     let activities = [];
-    //     if (document.getElementById("sightseeing").checked) activities.push("Sightseeing");
-    //     if (document.getElementById("adventure").checked) activities.push("Adventure");
-    //     if (document.getElementById("beach").checked) activities.push("Beach");
-    //     if (document.getElementById("wildlife").checked) activities.push("Wildlife");
+          let destination = document.getElementById("destination").value;
+          let date = document.getElementById("date").value;
+          let travelers = document.getElementById("travelers").value;
 
-    //     // Validate required fields
-    //     if (!name || !email || !phone ||  !destination || !date || !travelers  ) {
-    //         alert("Please fill in all required fields and accept the Terms & Conditions.");
-    //         return;
-    //     }
+          // Get selected activities
+          let activities = [];
+          if (document.getElementById("sightseeing").checked)
+            activities.push("Sightseeing");
+          if (document.getElementById("adventure").checked)
+            activities.push("Adventure");
+          if (document.getElementById("beach").checked)
+            activities.push("Beach");
+          if (document.getElementById("wildlife").checked)
+            activities.push("Wildlife");
 
-    //     // Show booking details
-    //     alert('Form submitted successfully');
-    //     alert('Thank you')
+          // Validate required fields
+          if (
+            !name ||
+            !email ||
+            !phone ||
+            !destination ||
+            !date ||
+            !travelers
+          ) {
+            alert(
+              "Please fill in all required fields and accept the Terms & Conditions."
+            );
+            return;
+          }
 
-    //     // Reset form after submission
-    //     this.reset();
-    // });
+          // Show booking details
+          alert("Form submitted successfully");
+          alert("Thank you");
 
-    
-    
+          // Reset form after submission
+          this.reset();
+        });
 
-  (function() {
-    emailjs.init("W6wu3K-lca-mvi3co"); // Replace with your EmailJS public key
-  })();
+      //   (function() {
+      //     emailjs.init("W6wu3K-lca-mvi3co"); // Replace with your EmailJS public key
+      //   })();
 
-  function emailsend(e) {
-    e.preventDefault();
+      //   function emailsend(e) {
+      //     e.preventDefault();
 
-    emailjs.sendForm("service_q456sct", "template_gl2b3eg", "#tourBookingForm")
-      .then(function(response) {
-        alert("Your booking has been submitted successfully!");
-        document.getElementById("tourBookingForm").reset();
-      }, function(error) {
-        alert("Oops! Something went wrong. Please try again.");
-        console.log(error);
-      });
-  }
-</script>
-
-
-        
+      //     emailjs.sendForm("service_q456sct", "template_gl2b3eg", "#tourBookingForm")
+      //       .then(function(response) {
+      //         alert("Your booking has been submitted successfully!");
+      //         document.getElementById("tourBookingForm").reset();
+      //       }, function(error) {
+      //         alert("Oops! Something went wrong. Please try again.");
+      //         console.log(error);
+      //       });
+      //   }
     </script>
-
-
-    </body>
-    </html>
+  </body>
+</html>
